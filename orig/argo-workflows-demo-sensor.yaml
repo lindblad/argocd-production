@@ -48,7 +48,7 @@ spec:
                     arguments:
                       parameters:
                       - name: app_repo
-                        value: git://github.com/vfarcic/argo-workflows-demo
+                        value: git://github.com/lindblad/argo-workflows-demo
                       - name: container_image
                         value: vfarcic/devops-toolkit
                       - name: container_tag
