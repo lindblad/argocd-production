@@ -9,14 +9,14 @@ spec:
   project: production
   source:
     path: helm
-    repoURL: https://github.com/vfarcic/devops-paradox.git
+    repoURL: https://github.com/lindblad/devops-paradox.git
     targetRevision: HEAD
     helm:
       values: |
         image:
           tag: latest
         ingress:
-          host: devopsparadox.com
+          host: devopsparadox.20.86.207.9.sslip.io
       version: v3
   destination:
     namespace: production
